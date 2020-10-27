@@ -1,0 +1,29 @@
+.BorderForCard
+{
+	/*Creating border for our card*/
+	
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: dashed;
+	width: 500px;
+	height: 250px; /* for clicking picture need height to change +50px*/
+	
+	/* Positioning for our fabolous looking card*/
+	position: relative; 
+	margin: auto;
+    top: 50px;
+}
+
+.Image
+{
+	position: absolute;
+	right: 3px;
+    top: 3px;
+    width: 200px;
+    height: 200px;
+}
+
+.label
+{
+	text-align: center;
+}
